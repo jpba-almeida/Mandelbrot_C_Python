@@ -22,12 +22,10 @@ Bibliotecas Python necessárias: - opencv -> pip install opencv-python
 │    ├── Makefile
 │    ├── README.md
 ```
-* Mandelbrot.dll: é um shared object gerado apartir do Mandelbrot.c.
-* Mandelbrot.so: é um shared object gerado apartir do Mandelbrot.c.
-* Mandelbrot.py: Arquivo resposavel por chamar a função main do arquivo Mandelbrot.ce exibir uma imagem do fractal.
-* Mandelbrot.c: Arquivo resposavel por realizar os calculos e gerar a imgaem do fractal.
-* Mandelbrot.h: Arquivo onde a função main da Mandelbrot.c é definido.
-* Makefile:Aquivo que consta as instruções de como gerar um arquivo binário.
-
----
+* Mandelbrot.dll: é um shared object gerado a partir do Mandelbrot.c.
+* Mandelbrot.so: é um shared object gerado a partir do Mandelbrot.c.
+* Mandelbrot.py: Arquivo responsável por chamar a função main do arquivo Mandelbrot.ce exibir uma imagem do fractal.
+* Mandelbrot.c: Arquivo responsável por realizar os cálculos e gerar a imgaem do fractal.
+* Mandelbrot.h: Arquivo onde a função main da Mandelbrot.c é definida.
+* Makefile:Arquivo que contém as instruções de como gerar um arquivo binário.
 
